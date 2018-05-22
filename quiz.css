@@ -1,0 +1,92 @@
+#first {
+	background-image: url('https://www.thomso.in/img/quizardry/quizardry.jpg');
+background-repeat: no-repeat;
+  background-size: cover;
+    background-position: center ;
+    height: 100vh;
+    display: flex;
+   
+ }
+
+.thomso{
+	background-image: url('https://www.thomso.in/img/quizardry/thomso-logo.png');
+	 position: absolute;
+    transform: translate(-50%, -50%);
+    top: 12%;
+    left: 17%;
+    background-size: 100% 100%;
+    width: 30vw; height: 20vw;
+    }
+
+.iitr{
+	background-image: url('https://www.thomso.in/img/quizardry/iit-logo.png');
+	position: absolute;
+	  transform: translate(50%,-50%);
+	top: 12%;
+	right: 17%;
+	background-size: 100% 100%;
+  width: 15vw; height: 15vw;
+}
+.dc{
+	color: white;
+	
+	font-weight: bold;
+	
+	letter-spacing: 0.3em;
+	font-size:5vw;
+	position: absolute;
+	bottom: 20%;
+	margin-left: 25%;
+}
+.button {
+	color: white;
+	font-size: 2.5vw;
+	position: absolute;
+	bottom: 10%;
+	border-radius: 20px;
+	background-color: grey;
+	padding: 20px;
+
+	}
+
+.one {
+	margin-left: 25%;
+	padding:20px;
+}
+.two {
+	margin-left: 60%;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 7vw;
+	padding-right:7vw;
+}
+#second{
+	background-color:#102b43;
+	background-size: cover;
+	height: 80vh;
+	margin-top:10px; 
+	 padding: 50px 13vw 20px 13vw;
+	 overflow: scroll;
+}
+.ins{
+	background-color:darkgrey;
+	
+	background-position: center;
+	
+
+	}
+.text{
+	font-size: 20px;
+	padding:0px 50px 50px 50px;
+	color: purple;
+	text-align: justify;
+	font-weight: bold;
+}
+#third{
+	background-color: black;
+	height: 20vh;
+	color: white;
+	font-size: 15px;
+	  background-size: cover;
+	 overflow: scroll;	  
+}
