@@ -1,0 +1,85 @@
+.left{
+
+	padding-left: 1em;
+	padding-top: 2em;
+	height: 100vh;
+
+}
+.row{
+	box-sizing: border-box;
+
+}
+.pic{
+	border-radius:50%;
+	height: 5.5em;
+	width: 5.5em;
+
+}
+.number{
+	font-size: 2.2em;
+	font-weight: bold;
+}
+.pink{
+	color:#f9509d;
+}
+.blue{
+	color: #5680d6;
+}
+.green{
+	color: #07aa77;
+}
+.word{
+	font-size: 1.6em;
+}
+
+.post-text
+{
+    color: #ec297b;
+    font-size: 1.5em;
+    opacity: 0.6;
+}
+
+.post-text-active
+{
+    opacity: 1;
+    font-size: 1.5em;
+    color: #ec297b;
+    text-decoration: none;
+    transition: .20s;
+    font-weight: 700;
+}
+.post-text-active:hover, .post-text-active:focus, .post-text-active:active
+{
+    opacity: 1;
+    font-size: 1.5em;
+    color: #ec297b;
+    text-decoration: none;
+    transition: .20s;
+    font-weight: 700;
+}
+
+.post-text:hover, .post-text:focus, .post-text:active
+{
+    cursor: pointer;
+    opacity: 1;
+    color: #ec297b;
+    text-decoration: none;
+    transition: .20s;
+    font-weight: 700;
+}
+.right{
+	
+	background:linear-gradient(36deg, rgb(215, 215, 249), rgb(241, 201, 240));
+	height: 100vh;
+	overflow-x: hidden; 
+	overflow-y: scroll; 
+	margin-left: -10px;
+	margin-right: -10px
+
+	}
+.panel{
+	margin-top: 50px;
+	margin-left: 30px;
+	margin-right: 30px;
+}
+
